@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/t3i3guvh1dnpwu8mrvuf/image-070" type="image/icon">
+    <title>Pleasanton Real Estate</title>
+</head>
+<body id="main">
+  <div id="loader-container">
+    <div class="spinner">
+        <span>H</span>
+        <span>A</span>
+        <span>N</span>
+        <span>S</span>
+        <span>E</span>
+        <span>N</span>
+        <span>~</span>
+        <span>P</span>
+        <span>A</span>
+        <span>R</span>
+        <span>T</span>
+        <span>N</span>
+        <span>E</span>
+        <span>R</span>
+        <span>S</span>
+    </div>
+</div>
+   <div id="mySidenav" class="sidenav">
+        <a href="#">MEET THE TEAM</a>
+        <a href="#">SEARCH FOR HOMES</a>
+        <a href="#">OUR COMMUNITIES</a>
+        <a href="#">HOME VALUATION</a>
+        <a href="#">SERVICES</a>
+        <a href="#">HOME ACROSS AMERICA</a>
+        <a href="#">TESTIMONIALS</a>
+        <a href="#">CONTACT US</a>
+    </div> 
+      <nav class="navbar navbar-expand-lg fixed-top" id="nav-main">
+        <img class="img-title" src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/tprhoiglqzbp9mbu8x8s/jhsereno-light" srcset="https://res.cloudinary.com/luxuryp/images/w_320,c_limit,f_auto,q_auto/tprhoiglqzbp9mbu8x8s/jhsereno-light 320w, https://res.cloudinary.com/luxuryp/images/w_960,c_limit,f_auto,q_auto/tprhoiglqzbp9mbu8x8s/jhsereno-light 960w, https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/tprhoiglqzbp9mbu8x8s/jhsereno-light 1280w, https://res.cloudinary.com/luxuryp/images/w_1920,c_limit,f_auto,q_auto/tprhoiglqzbp9mbu8x8s/jhsereno-light 1920w, https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/tprhoiglqzbp9mbu8x8s/jhsereno-light 2551w" class="logo__img light" alt="">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item align-content-center">
+          <a class="nav-link" href="#Home">HOME</a>
+        </li>
+          <li class="nav-item align-content-center">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+        <li class="nav-item align-content-center">
+            <a  class="nav-link" onclick="toggleNav()">
+              OTHERS
+            </a>
+          </li>
+          <li class="nav-item align-content-center">
+            <input id="query" class="input" type="search" placeholder="Search..." name="searchbar"/>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <section class="image-section">
+      <div class="row title">
+        <div class="left-panel col-sm-6">
+            <h1>
+                Services
+            </h1>
+       </div>
+       <div class="right-panel col-sm-6">       
+            <h1>
+                We provide every one of our clients with a level of service they won’t find anywhere else.
+            </h1>
+            <a class="appointment" href="#">BOOK APPOINTMENT  <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg></a>  
+       </div>
+      </div>
+    </section>
+    <section class="comp-marketing">
+      <div class="container-fluid">
+        <div class="marketing-title">
+          <h1>
+            Comprehensive Marketing Plan
+          </h1>
+        </div>
+        <div class="row comp-icon">
+          <div class="col-lg-6">
+            <div class="icon-left">
+              <img src="https://cdn-icons-png.flaticon.com/128/7286/7286142.png" alt="email" width="100">
+            </div>
+            <div class="icon-title">
+             <h2>
+              <b>
+                Responsive
+              </b>
+             </h2>
+            </div>
+            <div class="icon-text">
+              <h4>
+                I am always available via phone, text, or email.
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="icon-right">
+              <img src="https://cdn-icons-png.flaticon.com/128/2164/2164733.png" alt="Syndication" width="100">
+            </div>
+            <div class="icon-title">
+              <h2>
+                <b>
+                  Syndication
+                </b>
+              </h2>
+             </div>
+             <div class="icon-text">
+               <h4>
+                I market your property locally, nationally, and internationally
+               </h4>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="img-section">
+      <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/hqguvxyyi5jciyrzy35v/page-3" alt="image">
+    </section>
+    <section class="second-icon">
+      <div class="row container-fluid animation">
+        <div class="col-lg-6">
+          <div class="second-icon-left">
+            <img src="https://cdn-icons-png.flaticon.com/128/535/535137.png" alt="img">
+          </div>
+          <div class="second-title">
+            <h2>
+              <b>
+                Virtual Tour
+              </b>
+            </h2>
+          </div>
+          <div class="second-text">
+            <h4>
+              Let's make your home stand out with a high quality virtual tour.
+            </h4>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="second-icon-right">
+            <img src="https://cdn-icons-png.flaticon.com/128/4371/4371206.png" alt="img">
+          </div>
+          <div class="second-title">
+            <h2>
+              <b>
+                Photography
+              </b>
+            </h2>
+          </div>
+          <div class="second-text">
+            <h4>
+              Beatiful, high-end photography is a central part of our marketing plan for your property.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="first-gallery">
+      <div class="container">
+        <div class="gallery-title">
+          <h1 class="text-center"> 
+            <b>
+            My Staging Expertise
+          </b>
+          </h1>
+          <ul class="row">
+            <div class="col-lg-3 text">
+              <li>Unclutter and organize your home</li>
+            </div>
+            <div class="col-lg-3 text">
+              <li>Neatly arrange drawers and cabinets</li>
+            </div>
+            <div class="col-lg-3 text">
+              <li>Keep pets outdoors or off the premises</li>
+            </div>
+            <div class="col-lg-3 text">
+              <li>Play soft music</li>
+            </div>            
+          </ul>
+        </div>
+        <div class="row gall-container">
+          <div class="col-lg-4">
+            <img class="gall-img" src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/ghtq7jtce7tsgdjtosrs/image-025" alt="" width="400">
+          </div>
+          <div class="col-lg-4">
+            <div class="gallery-img-title">
+              <h3>
+                Decor Guidance
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img class="gall-img" src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/axx0whb7xfmlwhvcckrr/image-023" alt="" width="400">
+          </div>
+          <div class="col-lg-4">
+            <img class="gall-img" src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/tvntwvzwsjyi3ndwtpux/image-022" alt="" width="400">
+          </div>
+          <div class="col-lg-4">
+            <div class="gallery-img-title">
+              <h3>
+                Intentional Layout
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img class="gall-img" src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/lpaq7euqjebackcuwsdu/image-024" alt="" width="400">
+          </div>
+        </div>
+        <div class="gallery-title">
+          <ul class="row">
+            <div class="col-lg-3 text">
+              <li>Unclutter and organize your home</li>
+            </div>
+            <div class="col-lg-3 text">
+              <li>Neatly arrange drawers and cabinets</li>
+            </div>
+            <div class="col-lg-3 text">
+              <li>Keep pets outdoors or off the premises</li>
+            </div>
+            <div class="col-lg-3 text">
+              <li>Play soft music</li>
+            </div>            
+          </ul>
+        </div>  
+      </div>
+    </section>
+    <section class="sell-process">
+      <div class="container text-center">
+        <div class="sell-title">
+          <h1>The Selling Process</h1>
+        </div>
+        <div class="sell-text-container">
+        <div class="row container">
+          <div class="col-lg-6 sell-text">
+            <h1>1</h1>
+            <h5>Initial Consultation & Planning</h5>
+          </div>
+          <div class="col-lg-6 sell-text">
+            <h1>2</h1>
+            <h5>Devise & Execute Marketing Plan</h5>
+          </div>
+        </div>
+        <div class="row container">
+          <div class="col-lg-6 sell-text">
+            <h2>3</h2>
+            <h5>Review Offers & Reach Agreement with Buyer</h5>
+          </div>
+          <div class="col-lg-6 sell-text">
+            <h2>4</h2>
+            <h5>Complete Transaction Process</h5>
+          </div>
+        </div>
+        <div class="row container text-center">
+          <div class="col-lg-12 sell-text">
+            <h2>5</h2>
+            <h5>After - Sale Service</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="buy-process">
+      <div class="container text-center">
+        <div class="buy-title">
+          <h1>The Buying Process</h1>
+        </div>
+        <div class="buy-text-container">
+        <div class="row container">
+          <div class="col-lg-6 buy-text">
+            <h1>1</h1>
+            <h5>Initial Consultation & Planning</h5>
+          </div>
+          <div class="col-lg-6 buy-text">
+            <h1>2</h1>
+            <h5>Search for a Home & Get Pre-Approved</h5>
+          </div>
+        </div>
+        <div class="row container">
+          <div class="col-lg-6 buy-text">
+            <h2>3</h2>
+            <h5>Submit an Offer</h5>
+          </div>
+          <div class="col-lg-6 buy-text">
+            <h2>4</h2>
+            <h5>Complete Settlement Process</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="summary-section">
+      <div class="container-sum">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="summary-title text-center">
+              <h1><b>
+                Over 33 Years of Real Estate Success
+              </b></h1>
+              <h3 class="text-justify">
+                We provide every one of our clients with a level of service they won’t find anywhere else. We give them what they need, often before they know they need it. ​​​​​​​In real estate, almost everything can be negotiated. When you choose Hansen Partners It is experience is 100% nonnegotiable. ​​​​​​​ ​​​​​​​And it’s an experience like no other.
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-6 container-img">
+            <img class="summary-img" src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/azjfmtzx6evxpubynfci/edit-page-11r2" alt="">
+          </div>
+        </div>
+        <span></span>
+        <div class="row">
+          <div class="col-lg-6 container-img">
+            <img class="summary-img" src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/m5ea1kpipv5tiflnfx8t/edited-p-12" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="summary-title text-center">
+              <h2><b>
+                We Want To Create An Unforgettable Experience For You...
+              </b></h2>
+              <h3 class="text-justify">
+                We combine data gained from your home’s Comparative Market Analysis with local market research to create a marketing plan designed to help you meet your selling goals. Your home’s carefully designed plan will include a range of online, print, and other marketing tools targeted to the best-qualified pool of buyers. ​​​​​​​ Successfully marketing a home in today’s real estate environment requires a firm with experience and flexibility. Hansen Partners provides both.              </h3>
+            </div>
+          </div>
+        </div>
+        <span></span>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="summary-title text-center">
+              <h2><b>
+                The Hansen Partners Communications Table
+              </b></h2>
+              <h3 class="text-justify">
+                We have created this as a wonderful tool so that we can communicate with you daily, provide you with updates on what is happening with your home. We are available at the with a click of your tablet              </h3>
+            </div>
+          </div>
+          <div class="col-lg-6 container-img">
+            <img class="summary-img" src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/fuammgjubhjfvgcqleef/edit-image-056" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="benefits-section">
+      <div class="container">
+        <h1 class="jumbotron text-left">
+          BENEFITS:
+        </h1>
+        <div class="container benefits-info">
+          <div class="row">
+            <div class="col-lg-6">
+              <ul><li>
+                <h4>
+                  Review all documents and sign in the comfort of your home or anywhere.
+                </h4>
+              </li></ul>
+            </div>
+            <div class="col-lg-6">
+              <ul><li>
+                <h4>
+                  Stay up to date on all marketing activities, review materials, photos, etc. in real time.                </h4>
+              </li></ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul><li>
+                <h4>
+                  Meet with us face to face on our Gotomeeting.com platform to go over and discuss the events of the week.                </h4>
+              </li></ul>
+            </div>
+            <div class="col-lg-6">
+              <ul><li>
+                <h4>
+                  You have your own email assigned just for you and your common space to quickly write a note, or quickly send a video message to us for fast communication using our Bomb bomb video messaging system.                </h4>
+              </li></ul>
+            </div>
+          </div>
+          <div class="container text-center">
+            <h4 class="text-justify">
+              We believe that transparency and guiding you and your family through the process is key to having the best experience.  During these uncertain times. It is a good feeling to know you have some one with a proven track record you can count on.  We will be here to handle your needs during the Real Estate process.  We think of it before a need even arises. Because, that is just what we do.  Who you work with does matter! 
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="market-sect">
+      <div class="container marketStrat-title">
+        <h1 class="text-center">
+          We Market Your Home to The World
+        </h1>
+        <h5 class="text-center"><b>
+          Our Online Marketing Strategy
+        </b></h5>
+        <h4 class="text-center">
+          ​​​​​​​The Bay Area remains one of the world's most sought-after regions to live in, and when looking to sell, it is vital that your home be marketed online to audiences locally, nationally, and internationally.
+        </h4>
+      </div>
+      <div class="container">
+        <div class="info-bg">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="marketStrat-info">
+              <h3 class="info-title text-center">
+                <b>Local Exposure</b>
+              </h3>
+              <h4 class="info-text text-left">
+                Through our partnership with Nextdoor, the private online social network now used in over 80% of U.S.
+                 neighborhoods and virtually all Bay Area neighborhoods, we make sure your home receives targeted local exposure.
+                 When you list your home with Hansen Partners it will automatically appear on Nextdoor in your neighborhood.
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="marketStrat-info">
+              <h3 class="info-title text-center">
+                <b>
+                  National Exposure
+                </b>
+              </h3>
+              <h4 class="info-text text-left">
+                We secure strategic positioning and enhancement on Realtor.com, Trulia, and Zillow, driving more consumers to your home and increasing exposure. We  will receive every inquiry about your property directly.
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="marketStrat-info">
+              <h3 class="info-title text-center">
+                <b>
+                  International Exposure
+                </b>
+              </h3>
+              <h4 class="info-text text-left">
+                To expose your luxury listing to millions of potential homebuyers worldwide, we promote on prominent international real estate portals, including: Wall Street Journal, LuxuryPortfolio.com, LuxuryRealEstate.com, LeadingRE.com, UniqueHomes.com, 
+                China.apr.com, Caimeiju, Juwai, Country Life UK
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <figure class="container">
+            <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/olcvsnzpdrd5tov8dbci/image-057" alt="">
+    </figure>
+    <section class="partner-sect">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="left-row">
+              <div class="col-lg-4">
+                <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/p4rjc7oqvxtccrdqejbt/image-060" alt="">
+              </div>
+              <div class="col-lg-4">
+                <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ichuh7qj1rsu7mqxpl5p/image-069" alt="">
+              </div>
+              <div class="col-lg-4">
+                <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/t3i3guvh1dnpwu8mrvuf/image-070" alt="">
+              </div>
+            </div>
+            <div class="partner-leftinfo">
+              <h4 class="text-justify">
+                Leading Real Estate Companies of The World® & Luxury Portfolio International
+              </h4>
+              <h4 class="text-justify">
+                JRockcliff is a founding member of Luxury Portfolio International®, the luxury division of Leading Real Estate Companies of the World®. With more than 500 member firms around the world, Our luxury listings are exposed to a vast global audience and reach potential buyers and investors in over 50 countries.
+              </h4>
+              <h4 class="text-center">
+                Who's Who in Luxury Real Estate
+              </h4>
+              <h4 class="text-justify">
+                Who’s Who in Luxury Real Estate is a global collection of luxury real estate brokers.
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-6 right-row">
+            <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/og3ockhby4gghmrdfseo/edited-p-19" alt="">
+          </div>
+        </div>
+        <div class="partner-info2">
+        <h3 class="text-center">
+          Through our international affiliations, we have a strong presence in over 50 countries. Our luxury listings are sent to prominent international real estate sites, reaching over 70 million potential buyers and investors worldwide through our relationships with:
+        </h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 left-row">
+          <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ebvif7iqcx0lcjlvwyuz/edited-page-20" alt="">
+        </div>
+        <div class="col-lg-6 second-right-info">
+          <div class="partner-rightinfo">
+            <h4 class="text-justify">
+              We also have several well-positioned affiliate offices in China, providing our clients with access to buyers in Hong Kong, Shanghai, and Beijing.             </h4>
+          </div>
+          <div class="second-right-row">
+            <div class="col-lg-4">
+              <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/p4rjc7oqvxtccrdqejbt/image-060" alt="">
+            </div>
+            <div class="col-lg-4">
+              <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ichuh7qj1rsu7mqxpl5p/image-069" alt="">
+            </div>
+            <div class="col-lg-4">
+              <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/t3i3guvh1dnpwu8mrvuf/image-070" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="syndication-info">
+      <div class="container syndication-con">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="icon-left">
+              <img src="https://cdn-icons-png.flaticon.com/128/7286/7286142.png" alt="email" width="100">
+            </div>
+            <div class="icon-title">
+             <h2>
+              <b>
+                Responsive
+              </b>
+             </h2>
+            </div>
+            <div class="icon-text">
+              <h4>
+                I am always available via phone, text, or email to answer your questions in a timely manner..
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="icon-left">
+              <img src="https://cdn-icons-png.flaticon.com/128/2164/2164733.png" alt="email" width="100">
+            </div>
+            <div class="icon-title">
+             <h2>
+              <b>
+                Syndication
+              </b>
+             </h2>
+            </div>
+            <div class="icon-text text-center">
+              <h4>
+                I market your property locally, nationally, and internationally.
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="icon-left">
+              <img src="https://cdn-icons-png.flaticon.com/128/535/535137.png" alt="email" width="100">
+            </div>
+            <div class="icon-title">
+             <h2>
+              <b>
+                Virtual Tour
+              </b>
+             </h2>
+            </div>
+            <div class="icon-text text-center">
+              <h4>
+                Let’s make your home stand out with a high quality virtual tour.
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="icon-left">
+              <img src="https://cdn-icons-png.flaticon.com/128/3211/3211277.png" alt="email" width="100">
+            </div>
+            <div class="icon-title">
+             <h2>
+              <b>
+                Drone Photography
+              </b>
+             </h2>
+            </div>
+            <div class="icon-text text-center">
+              <h4>
+                Beautiful photography is a central part of our marketing plan for your property.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-sect">
+      <div class="container contact-container">
+        <div class="contact-title">
+          <h1>Work With Us</h1>
+        </div>
+          <span></span>
+          <div class="contact-text">
+            <h3 class="text-center">
+              With decades of experience in luxurious Tri Valley real estate, our team is here to ensure that your dreams are a reality. Let us guide you through your home buying journey, contact us today!
+            </h3>
+          </div>
+          <a id="btn-contact" href="#Contact">CONTACT US</a>
+      </div>
+    </section>
+    <section class="info-luxury">
+      <div class="luxury-container">
+        <div class="row">
+          <div class="col-lg-6 left-row">
+            <div class="lux-title text-center">
+              <h1>Julie Hansen Partnership</h1>
+              <h4 class="text-justify">
+                An elite group of the East Bay’s most talented and visionary real estate professionals believed buyers and sellers deserved more from their real estate company. More service. More resources. More integrity. More global reach. In a word, more of everything people should expect when they buy or sell their homes.
+              </h4>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="lux-info-add">
+                  <div class="add-title text-center">
+                    <h4>
+                      <b>
+                        ADDRESS
+                      </b>
+                    </h4>
+                  </div>
+                  <div class="add-text text-center">
+                    <h5>
+                      4733 Chabot Drive #100
+                      <br>
+                      Pleasanton, CA 94588
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="lux-info-add">
+                  <div class="add-title text-center">
+                    <h4>
+                      <b>
+                        CONTACT INFORMATION
+                      </b>
+                    </h4>
+                  </div>
+                  <div class="add-text text-center">
+                    <h5>
+                      <a href="#" class="text-dark">(925) 553-6707</a>
+                      <br>
+                      luxuryhomesinwc@icloud.com
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="lux-title text-center">
+              <h1>Newsletter</h1>
+              <h4 class="text-center">
+                Subscribe to our Newsletter for latest news and updates. Stay tuned!              </h4>
+            </div>
+            <form action="/POST">
+              <input type="email" name="email" id="email" placeholder="Email Address"><br>
+              <label class="text-justify">
+                <input type="checkbox" name="chkbx" id="chkbx">
+                By providing Julie Hansen Partnership your contact information,
+                 you acknowledge and agree to our <a href="#privacy_policy">privacy policy</a> and consent to
+                  receiving marketing communications, 
+                  including through automated calls, texts, and emails, 
+                  some of which may use artificial or prerecorded voices. 
+                  This consent isn’t necessary for purchasing any products or services and you may opt out at any time. To opt out from texts, you can reply, ‘stop’ at any time. To opt out from emails, you can click on the unsubscribe link in the emails. Message and data rates may apply.
+              </label>
+              <button>SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <a href=""><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt=""></a>
+            <a href=""><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt=""></a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <a href=""><img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/zbesma34ygwklawiysod/dark-realtor-logo_x1vczu" width="200" alt=""></a>
+            <a href=""><img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/siun2nwoji9w7v0mssvy/dark-equal-logo_gahxpa" alt=""></a>
+            <a href=""><img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/qje0mcix0r0qeoiikumu/sereno-logo" alt=""></a>
+          </div>
+        </div>
+        <h3 class="text-center">
+          Website Designed & Developed by
+          <a class="text-dark" href="">Luxury Presence</a>
+        </h3>
+      </div>
+      <div class="footer-main">
+        <h2 class="text-center">
+          Copyright 2024 | Privacy Policy
+        </h2>
+      </div>
+    </footer>
+    <marquee>
+      <h3>
+        2024 - Project
+      </h3>
+    </marquee>
+</body>
+<script src="script.js"></script>
+</html>
