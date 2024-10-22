@@ -146,6 +146,11 @@ body{
     transition: .5s;
     z-index: 999;
 }
+@media screen  and (max-width:991px) {
+  .navbar-nav a{
+    margin-bottom: 10px;
+  }
+}
 .navbar-nav a{
     color: white;
     margin-right: 10px;
@@ -692,6 +697,9 @@ figure img{
   justify-content: center;
   margin: 2rem 0;
 }
+.syndication-con img{
+  animation: icon 5s ease infinite;
+}
 .contact-sect{
   position: relative;
   height: auto;
@@ -747,6 +755,7 @@ figure img{
 }
 #btn-contact:hover{
   text-decoration: none;
+  backdrop-filter: blur(5px);
   background: rgba(0, 0, 0, 0.205);
   transform: translateY(-3px);
   box-shadow: 0px 10px 20px black;
@@ -810,6 +819,7 @@ form button{
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.288);
   border-radius: 20px;
+  transition: all .5s ease-in-out;
 }
 form button:hover{
   transform: translateY(-3px);
@@ -820,7 +830,13 @@ form button:active{
   box-shadow: 0px 0px 0px black;
 }
 footer{
-  padding-bottom: 3rem;
+  padding: 2rem;
+}
+.main-footer{
+  padding: 3rem 0;
+  background-color: #b3aeae29;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
 }
 footer .col-lg-6>a{
   font-size: 20px;
