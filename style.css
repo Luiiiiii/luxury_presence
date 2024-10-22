@@ -165,7 +165,7 @@ body{
     border: none;
 }
 .image-section{
-    height: 120vh;
+    height: 100vh;
     color: #fff;
     --fontColor: #fff;
     --fontColor_H: 0;
